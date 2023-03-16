@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\week1">
+      <UniqueIdentifier>{f916d7de-1c30-4c93-a327-3a9e9c8ef0fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10808.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\week1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
