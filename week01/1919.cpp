@@ -2,14 +2,13 @@
 #include <cstdlib>
 using namespace std;
 
-string str1;
-string str2;
-int check1[26];
-int check2[26];
-int cnt = 0;
-
 int main()
 {
+	string str1, str2;
+	int check1[26];
+	int check2[26];
+	int cnt = 0;
+
 	cin >> str1 >> str2;
 	for (int i = 0; i < str1.length(); i++)
 		check1[str1[i] - 'a']++;

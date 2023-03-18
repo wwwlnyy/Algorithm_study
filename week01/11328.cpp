@@ -2,13 +2,13 @@
 #include <algorithm>
 using namespace std;
 
-int n, flag;
-string src, fry_src;
-char arr1[26] = { 0, };
-char arr2[26] = { 0, };
-
 int main()
 {
+	int n, flag;
+	string src, fry_src;
+	char arr1[26] = { 0, };
+	char arr2[26] = { 0, };
+
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{

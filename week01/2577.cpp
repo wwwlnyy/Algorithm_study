@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int A, B, C, result, check[10];
-
 int main()
 {
+	int A, B, C, result, check[10];
+
 	cin >> A >> B >> C;
 	result = A * B * C;
 	while (result > 0)

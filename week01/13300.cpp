@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int n, k;
-int cnt = 0;
-int arr[7][2];
-
 int main()
 {
+	int n, k;
+	int cnt = 0;
+	int arr[7][2];
+
 	cin >> n >> k;
 	for (int i = 0; i < n; i++)
 	{

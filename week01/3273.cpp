@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int n, a, x;
-int arr[1000001] = { 0, };
-int check[2000001] = { 0, };
-
 int main()
 {
+	int n, a, x;
+	int arr[1000001] = { 0, };
+	int check[2000001] = { 0, };
+
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{

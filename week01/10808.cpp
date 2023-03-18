@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-string s;
-int check[26];
-
 int main()
 {
+	string s;
+	int check[26];
+
 	cin >> s;
 	for (int i = 0; i < s.size(); i++)
 		check[(int)s[i] - 'a']++;
